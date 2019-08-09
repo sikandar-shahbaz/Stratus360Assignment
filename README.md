@@ -9,6 +9,9 @@ The get.php file is a php proxy server I created to extract data from the API we
 This is because the CORS policy on the website was blocking resource sharing from my Javascript HTTP calls but does not block it from the proxy servers.
 The app.js file calls all the api data from the proxy server and renders it accordingly into the UI elements. 
 
+Please note that in order to go to a specific comic using the url, you must append the following onto the url   ?imageId=(comic number)
+For example, you can append ?imageId=5 to the url to jump to comic number 5
+
 I was able to complete all of the functionality that was asked of me in the case study criteria as well as one of the bonus points (random comic button).
 
 The link to the application is below
